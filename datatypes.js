@@ -20,7 +20,14 @@ let userName; // undefined - userName is declared but not assigned a value yet -
 let fruits = ["apple", "banana", "orange"]; // array of strings
 let numbers = [1, 2, 3, 4, 5]; //
 // array of numbers
-let mixedArray = ["apple", 42, true, [1, 2, 3],{isReady: true, email: "test@example.com"}, null]; // array with mixed data
+let mixedArray = [
+  "apple",
+  42,
+  true,
+  [1, 2, 3],
+  { isReady: true, email: "test@example.com" },
+  null,
+]; // array with mixed data
 let coordinates = [
   [1, 2],
   [3, 4],
@@ -28,23 +35,29 @@ let coordinates = [
 ]; // array of arrays (2D array)
 let marks = [80, 90, 75, 85]; // array of numbers representing marks
 
-
 // Object - a collection of key-value pairs, where each key is a string and the value can be of any data type. Objects are used to represent complex data structures and can contain properties and methods.
 let userProfile = {
-    name: "Albert",
-    age: 30,
-    isActive: true,
-    address: {
-        city: "Nairobi",
-        country: "Kenya",
-    },
-    hobbies: ["reading", "coding", "traveling"],
+  name: "Albert",
+  age: 30,
+  isActive: true,
+  address: {
+    city: "Nairobi",
+    country: "Kenya",
+  },
+  hobbies: ["reading", "coding", "traveling"],
 }; // object with properties and nested objects/arrays
-
 
 // Function - a block of code that can be called and executed. Functions can take parameters and return values. They are used to encapsulate reusable logic and perform specific tasks.
 function greet(name) {
-    return `Hello, ${name}!`;
-}   // function that takes a name as a parameter and returns a greeting message
+  return `Hello, ${name}!`;
+} // function that takes a name as a parameter and returns a greeting message
 greet("Albert"); // calling the function with "Albert" as an argument
 greet("Jane"); // calling the function with "Jane" as an argument
+
+// Explore operators in Javascript
+
+// The truth table
+//  ++var var++ , == === ,
+// truthy and falsy values
+
+// control flow statements - conditions and loops
