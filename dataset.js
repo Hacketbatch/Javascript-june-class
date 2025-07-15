@@ -129,5 +129,4 @@ console.log(dataset.seedlings[1].price_kes); // the price of one moringa seedlin
 - Array and Object Combination: What is the supplier location for the seedling with id 1?
 - Nested Array Filtering: What is the total cost (in KES) of the order placed by the customer named "Jane Wambui"?
 - Complex Nested Access: What are the soil types suitable for the seedling with category "Ornamental"?
-
  */
