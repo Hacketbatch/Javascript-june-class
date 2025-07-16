@@ -121,6 +121,7 @@ console.log(dataset.seedlings[1].price_kes); // the price of one moringa seedlin
  QUESTIONS
 - Basic Property Access: What is the name of the farm?
 - Nested Object Access: What is the phone number listed in the farm's contact information?
+
 - Array Index Access: What is the species name of the second seedling in the seedlings array?
 - Nested Array and Object: What is the sunlight requirement for the attributes of the third seedling?
 - Array of Objects: How many items are in stock for the seedling with the common name "Moringa"?
@@ -130,3 +131,9 @@ console.log(dataset.seedlings[1].price_kes); // the price of one moringa seedlin
 - Nested Array Filtering: What is the total cost (in KES) of the order placed by the customer named "Jane Wambui"?
 - Complex Nested Access: What are the soil types suitable for the seedling with category "Ornamental"?
  */
+
+console.log(dataset.farm.name);
+console.log(dataset.farm.contact.phone);
+console.log(dataset.seedlings[1].species);
+console.log(dataset.seedlings[2].attributes.sunlight);
+console.log(dataset.seedlings[2].attributes.soil_type[0]);

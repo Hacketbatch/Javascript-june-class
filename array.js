@@ -1,6 +1,8 @@
 // A javascript Array is a list-like object that is used to store multiple values in a single variable.
 
 const cartList = ["apple", "bread", "milk", "eggs", "cheese"];
+//
+console.log(cartList[7]); // Output: undefined - accessing an index that does not exist
 
 // Arrays can hold items of any type, including numbers, strings, objects, and even other arrays.
 const mixedArray = [42, "banana", { name: "John" }, [1, 2, 3]];

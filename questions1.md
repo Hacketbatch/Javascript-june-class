@@ -20,5 +20,10 @@ Here are 20 algorithm questions designed to test your knowledge of loops, condit
 18. Write a function that takes an array and returns true if the array is sorted in ascending order.
 19. Write a function that takes an array and returns the second largest number.
 20. Write a function that takes an array and returns the number of elements that are both positive and even.
+21. Write a function that counts how many times a specific character appears in a string.
+22. Write a function that returns the number of vowels in a string.
+23. Write a function that reverses a string and returns the reversed version.
+24. Write a function that checks if a string is a palindrome (reads the same forwards and backwards).
+25. Write a function that counts the number of words in a string, assuming words are separated by a single space.
 
 These questions will help you practice using loops, conditions, functions, array length and indexes, dot notation, and operators—without relying on built-in array or string methods.
