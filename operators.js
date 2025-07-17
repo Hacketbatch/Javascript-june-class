@@ -41,3 +41,5 @@ console.log(!31 > 20);
 // The truth table for logical operators:
 
 // 5. Ternary Operator: A shorthand for conditional statements. condition ? valueIfTrue : valueIfFalse.
+
+console.log(54 < 30 ? "albert" : "joseph");

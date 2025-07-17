@@ -1,4 +1,4 @@
-Here are 20 algorithm questions designed to test your knowledge of loops, conditions, functions, array length and indexes, dot notation, and operators—without using array or string methods (like push, pop, split, join, etc.):
+Here are 20 algorithm questions designed to test your knowledge of loops, conditions, functions, array length and indexes, dot notation, and operators—<b> _without using array or string methods_</b> (like push, pop, split, join, etc.):
 
 1. Write a function that takes an array of numbers and returns the sum of all the numbers.
 2. Write a function that takes an array and returns the largest number in the array.
