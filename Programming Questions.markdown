@@ -10,9 +10,7 @@ Write a function `findPairsWithSum(arr, target)` that takes an array of numbers 
 
 **Scenario:**  
 You are developing a financial planning tool that helps users allocate investments. Write a function to identify pairs of stocks whose combined prices equal a user-specified budget, enabling users to diversify their portfolio efficiently.
-
 ---
-
 2.  
 **Question:**  
 Write a function `maxSubArraySum(arr)` that takes an array of numbers `arr` and returns the maximum sum of any contiguous subarray. If the array contains only negative numbers, return the largest single number.
