@@ -4,12 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intro to JS</title>
+    <style>
+      body {
+        background-color: green;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <h1>Intro to Javascript</h1>
 
+    <button>Click Here</button>
+
     <footer></footer>
-    <script src="varaibles.js"></script>
+    <script>
+      document.querySelector("button").addEventListener("dblclick", () => {
+        alert("Hiiiiii");
+        // send a http reques
+      });
+    </script>
+
+    <!-- <script src="varaibles.js"></script> -->
     <script>
       // code
       // alert("Internal Javascript");
