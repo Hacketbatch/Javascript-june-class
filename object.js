@@ -12,17 +12,20 @@ const car = {
     console.log("Car started");
   },
 };
+console.log(car.type);
+car.type = "truck";
+console.log(car.type);
+
 // anonymous function -  a function without a name
 
 // Accessing values in an object can be done using dot notation or bracket notation.
 
-console.log(car.colors[2]); // Output: green - using dot notation
-console.log(car["color"]); // Output: red - using bracket notation
+// console.log(car.colors[2]); // Output: green - using dot notation
+// console.log(car["color"]); // Output: red - using bracket notation
 
-console.log(car.type); // Output: sedan
-console.log(car.onSale); // Output: true
-// calling a method/FUNCTION
-car.start();
-
+// console.log(car.type); // Output: sedan
+// console.log(car.onSale); // Output: true
+// // calling a method/FUNCTION
+// car.start();
 
 // JSON - JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
